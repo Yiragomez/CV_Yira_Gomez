@@ -1,0 +1,90 @@
+/* ====== ESTILO GENERAL ====== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4dcdc;
+    margin: 1;
+    padding: 1;
+}
+
+/* ====== ENCABEZADO ====== */
+header {
+    text-align: center;
+    background-color: #ea9b9b;
+    color: rgb(111, 38, 38);
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10 px rgba(0,0,0,0.2);
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f39c12;
+}
+
+/* ====== CONTENEDORES ====== */
+section {
+    width: 85%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10 px rgba(0,0,0,0.1);
+}
+
+.tarjeta {
+    background: rgb(177, 126, 224);
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.tarjeta h2 {
+    color: #f39c12;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.tarjeta h3 {
+    color: #f39c12;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/*=======Body============*/
+
+body {
+    font-family: 'Segoe UI' , sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 16px;
+    color: 333;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+    color: #442f0d;
+
+
+}
+/* ====== LISTA DE COMPETENCIAS ====== */
+#competencias ul {
+    list-style: square
+    margin-top: 10px;
+}
+li {
+    margin-bottom: 10PX;
+}
+
+#competencias li {
+    background-color: rgb(216, 138, 138);
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 25px;
+}
